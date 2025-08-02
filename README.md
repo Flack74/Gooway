@@ -27,6 +27,7 @@ url_shortner/
 │   └── main.go           # Application entry point
 ├── 📁 urlshort/
 │   └── handler.go        # URL handling logic
+│   └── handler_test.go   # Unit tests for the handler package
 ├── 📁 data/
 │   ├── urls.db          # SQLite database with 500+ real websites
 │   ├── urls.yaml        # YAML configuration (24 sample URLs)
